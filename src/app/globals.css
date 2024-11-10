@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+     body {
+         color: #5c378a;
+         background-color: rgba(120, 195, 201, 0.603);
+     
+        }
+}
+@layer component {
+    .menuLink {
+          @apply cursor-pointer hover:text-[#c5c5];
+    } 
+ }
+ .links{
+    display: flex;
+    flex-direction: raw;
+    list-style: none;
+    justify-content: end;
+    gap: 20px;
+    height: 40px;
+    align-items: center;
+    margin-left:70px;
+    margin-right:70px;
+}
+
+.links-parent{
+background-color: #90b8e6;
+}
+.link{
+padding-inline: 20px;
+}
+
+
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .aboutButton {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #d44848;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .aboutButton:hover {
+    background-color: #005bb5;
+  }
+  
+  nav {
+    margin-top: 2rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+
+
